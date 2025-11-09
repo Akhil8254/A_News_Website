@@ -106,7 +106,9 @@ function App() {
              <div>     {/* 🔽 Your styled link-button main story */}
             <button
                onClick={() => window.open('https://youtu.be/xfSTYc9kk4s?si=ZmECnh-nTGnACjLS', '_blank')}
-              className="link-button"
+              className="link-button"  style={{cursor: 'pointer'}}
+
+              style={{cursor: 'pointer'}}
            >
               Play Video
             </button>
@@ -125,7 +127,8 @@ function App() {
           
             <button
         onClick={() => window.open('https://youtu.be/MFK6Wf24Bcs?si=G6ZtatwzYRTyRJMs', '_blank')}
-        className="link-button"
+        className="link-button"  style={{cursor: 'pointer'}}
+
       >
         Play Video
       </button>
@@ -139,7 +142,8 @@ function App() {
 
             <button
         onClick={() => window.open('https://youtu.be/IptZXX5-ZD4?si=cUgKvKEk5Jq_8-UX', '_blank')}
-        className="link-button"
+        className="link-button"  style={{cursor: 'pointer'}}
+
       >
         Play Video
       </button>
@@ -153,7 +157,8 @@ function App() {
 
             <button
         onClick={() => window.open('https://youtu.be/jqed-Y9XEKg?si=xSZyCSDXRzgvsY6F', '_blank')}
-        className="link-button"
+        className="link-button"  style={{cursor: 'pointer'}}
+
       >
         Play Video
       </button>
@@ -167,7 +172,8 @@ function App() {
             
             <button
         onClick={() => window.open('https://youtu.be/n34Af9PhiZw?si=JpEsyAChGJOEROIv', '_blank')}
-        className="link-button"
+        className="link-button"  style={{cursor: 'pointer'}}
+
       >
         Play Video
       </button>
@@ -190,7 +196,8 @@ function App() {
 
             <button
         onClick={() => window.open('https://youtu.be/hZZnMcZu4W0?si=JSEkQRQtmm-VP_W5', '_blank')}
-        className="link-button"
+        className="link-button"  style={{cursor: 'pointer'}}
+
       >
                 Play Video
             </button>
@@ -204,7 +211,8 @@ function App() {
 
             <button
         onClick={() => window.open('https://youtu.be/pkYjJCYz1mI?si=TnnVIP23maynBeuB', '_blank')}
-        className="link-button"
+        className="link-button"  style={{cursor: 'pointer'}}
+
       >
                 Play Video
             </button>
@@ -218,7 +226,8 @@ function App() {
 
             <button
               onClick={() => window.open('https://youtu.be/oAzI21yMmDw?si=brhdkfeM8sSyn5DU', '_blank')}
-              className="link-button"
+              className="link-button"  style={{cursor: 'pointer'}}
+
              >
                 Play Video
             </button>
@@ -232,7 +241,8 @@ function App() {
 
             <button
                onClick={() => window.open('https://youtu.be/c5UbhQp7I8A?si=Ajb1nb_DSSGUAoRa', '_blank')}
-              className="link-button"
+              className="link-button"  style={{cursor: 'pointer'}}
+
             >
                 Play Video
             </button>
@@ -246,7 +256,8 @@ function App() {
 
             <button
                onClick={() => window.open('https://youtu.be/calbATbeXSE?si=MYm5VP-K3891RskY', '_blank')}
-              className="link-button"
+              className="link-button"  style={{cursor: 'pointer'}}
+
             >
                 Play Video
             </button>
@@ -265,7 +276,8 @@ function App() {
                 <h4>రైతే-రాజు లో యువరైతు రాజు తో ఎక్స్ క్లూజివ్ ఇంటర్వ్యూ</h4>
                 <button
                   onClick={() => window.open('https://youtu.be/e8Aux6xblv8?si=HQsOr-EQ7oWvhOgj', '_blank')}
-                  className="link-button"
+                  className="link-button"  style={{cursor: 'pointer'}}
+
                  > 
                    Play Video
                </button>
@@ -278,7 +290,8 @@ function App() {
                 <h4>మాజీ ఎమ్మెల్యే గడ్డం అరవిందరెడ్డి ఎక్స్ క్లూజివ్ ఇంటర్వ్యూ</h4>
                 <button
                   onClick={() => window.open('https://youtu.be/DEf3SZorDg8?si=najAJOKcdIH9yfBi', '_blank')}
-                  className="link-button"
+                  className="link-button"  style={{cursor: 'pointer'}}
+
                  > 
                    Play Video
                </button>
@@ -291,7 +304,8 @@ function App() {
                 <h4>ది లీడర్ డా.నీలకంఠేశ్వర్ గౌడ్ స్పెషల్ ఇంటర్వ్యూ</h4>
                 <button
                   onClick={() => window.open('https://youtu.be/R6p3pHMmx1I?si=gbSmVB2GOXT-3K9W', '_blank')}
-                  className="link-button"
+                  className="link-button"  style={{cursor: 'pointer'}}
+
                  > 
                    Play Video
                </button>
@@ -304,7 +318,8 @@ function App() {
                 <h4>సీనియర్ జర్నలిస్టులతో ప్రత్యేక చర్చ</h4>
                 <button
                   onClick={() => window.open('https://youtu.be/GnbPQgWFp5c?si=GErrixFpcs034vaG', '_blank')}
-                  className="link-button"
+                  className="link-button"  style={{cursor: 'pointer'}}
+
                  > 
                    Play Video
                </button>
@@ -317,7 +332,8 @@ function App() {
                 <h4> డిసిసి అధ్యక్షురాలు కొక్కిరాల సురేఖ స్పెషల్ ఇంటర్వ్యూ</h4>
                 <button
                   onClick={() => window.open('https://youtu.be/RMzjS7PJOSE?si=LUya2j7YHOMEHzpY', '_blank')}
-                  className="link-button"
+                  className="link-button"  style={{cursor: 'pointer'}}
+
                  > 
                    Play Video
                </button>
