@@ -1,0 +1,177 @@
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.ANEWS-wrapper {
+  background-color: #fff;
+  color: #000;
+}
+
+.ANEWS-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkblue;
+  color: white;
+  padding: 20px 20px;
+}
+
+.ANEWS-logo {
+  font-size: 24px;
+  font-weight: bold;
+  background: red;
+  color: white;
+  padding: 5px 9px;
+}
+
+.ANEWS-nav a {
+  font-size: 20px;
+  margin: 0px 10px;
+  color: yellow;
+  text-decoration: none;
+}
+
+.ANEWS-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.top-stories {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.main-story {
+  flex: 2;
+  position: relative;
+}
+
+.main-story img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.story-overlay { 
+  position: absolute;  
+  bottom: 0;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(to top, rgba(38, 136, 54, 0.79), transparent);
+}
+
+.side-stories {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.side-story img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.news-section {
+  padding: 20px;
+}
+
+.news-section h3 {
+  border-left: 5px solid red;
+  padding-left: 10px;
+}
+
+.news-grid {
+  display: flex;                  /* Use flex for horizontal layout */
+  overflow-x: auto;               /* Enable horizontal scrolling */
+  gap: 20px;                      /* Spacing between cards */
+  padding: 10px;
+  scroll-behavior: smooth;        /* Optional: smooth scroll */
+}
+
+.news-card img {
+  min-width: 20px;               /* Minimum width per card */
+  flex-shrink: 0;                /* Prevent cards from shrinking */
+  width: 500px;
+  height: '' ;
+  border-radius: 4px;
+}
+
+.ANEWS-welcome {
+  margin: 20px auto ;
+  text-align: left;
+  position: relative;
+  top: 10px;
+  margin-left: 20px;
+}
+
+.ANEWS-welcome h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+.ANEWS-date {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+  background-color: '' ;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+ 
+/*
+.telugu-heading {   font chnaging setting (not applied) 
+  font-family: '	Pothana2000', cursive;
+  font-size: 15px;
+  color: #333;
+  font-weight: 700;
+} */
+
+.interviews-section {
+  padding: 10px;
+  border-left: 15px ;
+  padding-left: 20px;
+  margin: 0 0 10px 0;
+  
+}
+
+.interviews-grid {
+  display: flex;                  /* Use flex for horizontal layout */
+  overflow-x: auto;               /* Enable horizontal scrolling */
+  gap: 20px;                      /* Spacing between cards */
+  padding: 10px;
+  scroll-behavior: smooth;        /* Optional: smooth scroll */
+}
+
+.interview-card img {
+  min-width: 20px;               /* Minimum width per card */
+  flex-shrink: 0;                /* Prevent cards from shrinking */
+  width: 500px;
+  height: '' ;
+  border-radius: 4px;
+}
+
+/* Hide scrollbars but allow scrolling(chrome.., firefox) */
+
+/* For WebKit browsers (Chrome, Safari) */
+.news-grid::-webkit-scrollbar,
+.interviews-grid::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+.news-grid,
+.interviews-grid {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}

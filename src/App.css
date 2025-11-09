@@ -1,0 +1,282 @@
+/* =======================
+   Global & Layout Styles
+========================== */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.ANEWS-wrapper {
+  background-color: #fff;
+  color: #000;
+}
+
+/* =======================
+   Header
+========================== */
+
+.ANEWS-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+}
+
+.ANEWS-logo {
+  font-size: 24px;
+  font-weight: bold;
+  background: red;
+  color: white;
+  padding: 5px 9px;
+}
+
+.ANEWS-nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.ANEWS-nav a {
+  font-size: 20px;
+  color: yellow;
+  text-decoration: none;
+}
+
+.ANEWS-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* =======================
+   Dropdown Navigation
+========================== */
+
+.nav-item {
+  position: relative;
+}
+
+.dropdown span {
+  cursor: pointer;
+  color: yellow;
+  font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: white;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 6px;
+   opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.34s ease;
+  pointer-events: auto;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+  opacity: 1;
+  display: flex;
+  visibility: visible;
+}
+
+.dropdown-content a {
+  padding: 6px 12px;
+  white-space: nowrap;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+/* =======================
+   Date & Welcome Section
+========================== */
+
+.ANEWS-date {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.ANEWS-welcome {
+  margin: 20px auto 0 20px;
+  text-align: left;
+  position: relative;
+  top: 10px;
+}
+
+.ANEWS-welcome h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+/* =======================
+   Top Stories
+========================== */
+
+.top-stories {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.main-story {
+  flex: 2;
+  position: relative;
+}
+
+.main-story img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.story-overlay {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(to top, rgba(38, 136, 54, 0.79), transparent);
+}
+
+.side-stories {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.side-story img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* =======================
+   News Section
+========================== */
+
+.news-section {
+  padding: 20px;
+}
+
+.news-section h3 {
+  border-left: 5px solid red;
+  padding-left: 10px;
+}
+
+.news-grid {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+.news-card img {
+  flex-shrink: 0;
+  width: 500px;
+  border-radius: 4px;
+}
+
+/* =======================
+   Interviews Section
+========================== */
+
+.interviews-section {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.interviews-grid {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+.interview-card img {
+  flex-shrink: 0;
+  width: 500px;
+  border-radius: 4px;
+}
+
+/* =======================
+   Scrollbar Hide (All Browsers)
+========================== */
+
+/* WebKit (Chrome, Safari) */
+.news-grid::-webkit-scrollbar,
+.interviews-grid::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox, IE/Edge */
+.news-grid,
+.interviews-grid {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+ 
+
+.login-button {
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: orange;
+}                            
+
+
+
+/* =======================
+   Optional Telugu Font Class (Commented)
+========================== */
+
+/*
+.telugu-heading {
+  font-family: 'Pothana2000', cursive;
+  font-size: 15px;
+  color: #333;
+  font-weight: 700;
+}
+*/
