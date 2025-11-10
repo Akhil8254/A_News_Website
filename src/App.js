@@ -97,7 +97,7 @@ function App() {
       <section className="top-stories">
         <div className="main-story">
 
-        <a href="https://youtu.be/xfSTYc9kk4s?si=ZmECnh-nTGnACjLS"  target='_blank'rel="noreferrer">
+        <a href="https://youtu.be/xfSTYc9kk4s?si=ZmECnh-nTGnACjLS"  target='_blank' rel="noreferrer">
           <img src="https://img.youtube.com/vi/xfSTYc9kk4s/maxresdefault.jpg" alt="Video thumbnail" />
         </a>
           <div className="story-overlay">
