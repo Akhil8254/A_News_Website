@@ -108,7 +108,7 @@ function App() {
                onClick={() => window.open('https://youtu.be/xfSTYc9kk4s?si=ZmECnh-nTGnACjLS', '_blank')}
               className="link-button"  style={{cursor: 'pointer'}}
 
-              style={{cursor: 'pointer'}}
+              
            >
               Play Video
             </button>
